@@ -11,4 +11,6 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require blotter
+//= require channelSplitMaterial
 //= require_tree .
