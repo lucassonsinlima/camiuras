@@ -1,7 +1,6 @@
 require('slick-carousel');
 require('pagepiling.js');
-require('../libs/blotter.js');
-require('../libs/channelSplitMaterial.js');
+
 module.exports = {
 
   init: function(){
