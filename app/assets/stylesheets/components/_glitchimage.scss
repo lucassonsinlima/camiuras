@@ -31,7 +31,7 @@
 	left: calc(-1 * var(--gap-horizontal));
 	width: calc(100% + var(--gap-horizontal) * 2);
 	height: calc(100% + var(--gap-vertical) * 2);
-  background: url("../../../src/images/imgcenter.png") no-repeat 50% 0;  
+  background: url(image_path('imgcenter.png')) no-repeat 50% 0;
 	background-color: var(--blend-color-1);
 	background-size: cover;
 	transform: translate3d(0,0,0);
@@ -103,7 +103,7 @@
 /* Animations */
 
 @keyframes glitch-anim-1 {
-	0% { 
+	0% {
 		opacity: 1;
 		transform: translate3d(var(--gap-horizontal),0,0);
 		-webkit-clip-path: polygon(0 2%, 100% 2%, 100% 5%, 0 5%);
@@ -162,7 +162,7 @@
 }
 
 @keyframes glitch-anim-2 {
-	0% { 
+	0% {
 		opacity: 1;
 		transform: translate3d(calc(-1 * var(--gap-horizontal)),0,0);
 		-webkit-clip-path: polygon(0 25%, 100% 25%, 100% 30%, 0 30%);
@@ -221,7 +221,7 @@
 }
 
 @keyframes glitch-anim-3 {
-	0% { 
+	0% {
 		opacity: 1;
 		transform: translate3d(0, calc(-1 * var(--gap-vertical)), 0) scale3d(-1,-1,1);
 		-webkit-clip-path: polygon(0 1%, 100% 1%, 100% 3%, 0 3%);
@@ -312,7 +312,7 @@
 }
 
 @keyframes glitch-anim-text {
-	0% { 
+	0% {
 		transform: translate3d(calc(-1 * var(--gap-horizontal)),0,0) scale3d(-1,-1,1) skewX(-15deg);
 		-webkit-clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
 		clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
@@ -355,7 +355,7 @@
 	}
 }
 @keyframes glitch-anim-text2 {
-	0% { 
+	0% {
 		transform: translate3d(calc(-1 * var(--gap-horizontal)),0,0) scale3d(-1,-1,1) skewX(-15deg);
 		-webkit-clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
 		clip-path: polygon(0 20%, 100% 20%, 100% 21%, 0 21%);
@@ -400,8 +400,8 @@
 
 /* Flash */
 @keyframes glitch-anim-flash {
-	0%, 5% { 
-		opacity: 0.2; 
+	0%, 5% {
+		opacity: 0.2;
 		transform: translate3d(var(--gap-horizontal), var(--gap-vertical), 0);
 	}
 	5.5%, 100% {

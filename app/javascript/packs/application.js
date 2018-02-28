@@ -6,12 +6,6 @@
 //
 // To reference this file, add <%= javascript_pack_tag 'application' %> to the appropriate
 // layout file, like app/views/layouts/application.html.erb
-console.log("app js");
-require('../libs/blotter.min.js');
-require('../libs/channelSplitMaterial.js');
-require('../libs/jquery.pagepiling.min.js');
-require('../libs/slick.min.js');
-
+console.log("app jss");
 const index = require('../modules/index');
-
 index.init();

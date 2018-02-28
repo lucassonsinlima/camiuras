@@ -1,10 +1,15 @@
+require('slick-carousel');
+require('pagepiling.js');
+require('../libs/blotter.js');
+require('../libs/channelSplitMaterial.js');
 module.exports = {
-  
+
   init: function(){
     this.carousel();
     this.nav_handler();
     this.piling();
     this.blotterjs();
+    console.log("xd");
   },
 
   carousel: function(){
