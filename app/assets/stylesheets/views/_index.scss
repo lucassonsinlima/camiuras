@@ -1,0 +1,223 @@
+@import "compass";
+
+.m-section--full {
+  text-align: center;
+}
+
+.l-section {
+  //First section
+  &__welcome {
+    .b-canvas {
+      transform: skewX(-15deg);
+    }
+  }
+  &__menu {
+    &--container {
+      .text--title {
+        position: relative;
+        top: -30px;
+      }
+    }
+  }
+}
+
+.b-section {
+  //Section menu
+  &__menu {
+    &--nav {
+      position: absolute;
+      left: 50%;
+      @include transform(translateX(-50%));
+    }
+    &--about {
+      top: 40px;
+    }
+    &--works {
+      bottom: 40px;
+    }
+  }
+  //NAVBAR
+  &__nav {
+    position: absolute;
+    top: 40px;
+    span {
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .is--active {
+      .text--bordered {
+        &:after {
+          width: 25px;
+        }
+      }
+    }
+    &--center {
+      left: 50%;
+      @include transform(translateX(-50%));
+    }
+    &--left {
+      left: 40px;
+    }
+    &--right {
+      right: 40px;
+    }
+  }
+  //CENTRAL
+  &__central {
+    &--content {
+      position: absolute;
+      top: 65%;
+      left: 40px;
+      right: 40px;
+      @include transform(translateY(-65%));
+    }
+    &--wrap {
+      display: flex;
+    }
+    &--left {
+      width: 50%;
+      img {
+        display: block;
+      }
+      span {
+        display: block;
+        line-height: 20px;
+      }
+      .text--red {
+        font-size: .9em;
+      }
+    }
+    &--image {
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+      min-height: 340px;
+      height: auto;
+      img {
+        @include transition(.2s ease-in-out);
+      }
+    }
+    &--contact {
+      padding-top: 20px;
+      text-align: left;
+      @include backface-cheat;
+    }
+    &--right {
+      text-align: left;
+      padding: 0 80px;
+      width: 60%;
+      @include backface-cheat;
+      .text--orange {
+        font-size: 8em;
+      }
+      .text--subtitle {
+        font-size: .9em;
+      }
+    }
+    &--title {
+      padding-bottom: 30px;
+    }
+    &--more {
+      float: left;
+      width: 100%;
+      padding-top: 40px;
+      .text--red {
+        font-size: 1em;
+      }
+    }
+  }
+  &__works {
+    &--sidenav {
+      position: absolute;
+      right: -70px;
+      top: 60%;
+      @include transform(translateY(-60%) rotate(90deg));
+      .c-sidenav--item {
+        float: left;
+        &:nth-child(1){
+          position: relative;
+          right: 60px;
+        }
+        span {
+          font-family: $fontSwiss;
+          cursor: pointer;
+          @include transition(.2s ease-in-out);
+          &:hover {
+            color: $blue;
+          }
+          &.is--active {
+            color: $blue;
+            &:after {
+              content: "";
+              width: 50%;
+              margin: 0 auto;
+              height: 5px;
+              display: block;
+              background: $blue;
+              transform: skewX(15deg);
+            }
+          }
+        }
+      }
+    }
+    &--wrap {
+    }
+    &--group {
+      opacity: 0;
+      visibility: hidden;
+      float: left;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      @include transform(translate(-50%, -50%));
+      .b-section__group--wrapper {
+        align-items: center;
+        display: flex;
+        width: 75%;
+        margin: 0 auto;
+      }
+      &.is--active {
+        opacity: 1;
+        visibility: visible;
+      }
+      > nav {
+        float: left;
+        text-align: center;
+      }
+      .b-section__works--images {
+        width: 40%;
+      }
+      .b-section__works--info {
+        width: 50%;
+      }
+      .works__item  {
+        text-align: center;
+        position: relative;
+        &--title {
+          margin-bottom: 30px;
+          text-align: left;
+          span {
+            margin-left: 10px;
+            color: $orange;
+            text-transform: lowercase;
+            font-weight: 700;
+            font-size: 2.5em;
+          }
+        }
+        .image__wrapper {
+          position: relative;
+          display: inline-block;
+        }
+        &--content {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.slick-slider {
+  float: left;
+  width: 50%;
+}

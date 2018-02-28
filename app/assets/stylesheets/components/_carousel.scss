@@ -1,0 +1,36 @@
+.slick-arrow {
+  color: $orange;
+  text-transform: lowercase;
+  font-size: 1em;
+  border: 0;
+  background: 0;
+  position: absolute;
+  bottom: -100px;
+  outline: none;
+  font-weight: 700;
+  -ms-transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+  cursor: pointer;
+  font-family: $fontSwiss;
+  &:after {
+    transform: skewX(15deg);
+  }
+}
+
+.slick-next {
+  right: 0;
+}
+.slick-prev {
+  left: 0;
+}
+
+.slick-slide {
+  outline: none;
+  img {
+    display: inline-block;
+  }
+}
+.slick-list {
+  padding: 0 -10px;
+}

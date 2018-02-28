@@ -1,0 +1,12 @@
+@mixin transform($args...) {
+  -webkit-transform: $args;
+  -moz-transform: $args;
+  -ms-transform: $args;
+  -o-transform: $args;
+  transform: $args;
+}
+
+@mixin backface-cheat(){
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0);
+}

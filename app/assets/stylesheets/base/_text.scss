@@ -1,0 +1,96 @@
+.text {
+  text-transform: lowercase;
+  font-family: $fontMain;
+  display: inline-block;
+  &--orange {
+    color: $orange;
+    font-weight: 900;
+    @include breakpoint(desktop){
+      font-size: 12em;
+    }
+  }
+  &--title {
+    font-family: $fontSwiss;
+    font-size: 17em;
+    color: $orange;
+  }
+  &--title2 {
+    font-family: $fontSwiss;
+    font-size: 8em;
+    color: $orange;
+  }
+  &--subtitle {
+    color: $red;
+    font-family: $fontSwiss;
+    font-size: 1.3em;
+    @include transition(.2s ease-in-out);
+    &.text--bordered {
+      &:after {
+        background: $red;
+      }
+    }
+  }
+  &--red {
+    font-weight: 700;
+    color: $red;
+    cursor: pointer;
+    @include transition(.2s ease-in-out);
+  }
+  &--blue {
+    color: $blue;
+    font-weight: 700;
+    font-size: 4em;
+  }
+  &--gray {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: $gray;
+  }
+  &--graylight {
+    color: $gray-light;
+    line-height: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: .8em;
+  }
+  &__lighter {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 5px;
+    &--orange {
+      color: $orange;
+      @include transition(.2s ease-in-out);
+    }
+  }
+
+  //Modif
+  &--underlined {
+    position: relative;
+    &:after {
+      content: "";
+      width: 100%;
+      height: 2px;
+      background: $red;
+      display: block;
+      @include transition(.2s ease-in-out);
+    }
+  }
+  &--bordered {
+    &:hover {
+      &:after {
+        width: 25px;
+      }
+    }
+    &:after {
+      content: "";
+      background: $orange;
+      width: 0%;
+      height: 6px;
+      position: absolute;
+      display: block;
+      margin-top: 5px;
+      right: 5px;
+      @include transition(.1s ease-in-out);
+    }
+  }
+}
