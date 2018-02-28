@@ -122,3 +122,855 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 1433ms (Views: 1186.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:37:36 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.5ms)
+Completed 500 Internal Server Error in 2038ms
+
+
+  
+SyntaxError (C:/web/camiuras/app/views/home/index.html.erb:217: syntax error, unexpected =>, expecting ')'
+...end=( image_tag('purga.png') =>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:219: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:220: syntax error, unexpected '<'
+                <div class="works__item works_...
+                 ^
+C:/web/camiuras/app/views/home/index.html.erb:221: syntax error, unexpected '<'
+                    <div class="image__wrapper">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:222: syntax error, unexpected '<'
+                      <img src="images/purga.png" alt="">
+                       ^
+C:/web/camiuras/app/views/home/index.html.erb:222: syntax error, unexpected tIDENTIFIER, expecting ')'
+                      <img src="images/purga.png" alt="">
+                                                     ^
+C:/web/camiuras/app/views/home/index.html.erb:223: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:224: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:225: syntax error, unexpected '<'
+              </nav>
+               ^
+C:/web/camiuras/app/views/home/index.html.erb:229: unknown regexp options - pa
+C:/web/camiuras/app/views/home/index.html.erb:230: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:232: unknown regexp options - pa
+C:/web/camiuras/app/views/home/index.html.erb:233: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:234: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:235: syntax error, unexpected '<'
+                  <div class="works__item works_...
+                   ^
+C:/web/camiuras/app/views/home/index.html.erb:236: syntax error, unexpected '<'
+                    <div class="works__item--title">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:237: syntax error, unexpected '<'
+                      <span class="text text--title ...
+                       ^
+C:/web/camiuras/app/views/home/index.html.erb:237: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...text--title skew-x">untitled 02</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:238: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:239: syntax error, unexpected '<'
+                    <div class="works__item--content">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected '<'
+                    <span class="text text--grayli...
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+... text--graylight">  Lorem ipsum dolor sit amet, consectetur ...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...t amet, consectetur adipisicing elit. Iusto dolore laudantiu...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...remque soluta quam, repellat et impedit magnam, ad inventore...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...et impedit magnam, ad inventore nihil tempore explicabo exer...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:240: syntax error, unexpected tFID, expecting keyword_do or '{' or '('
+...tationem veritatis, labore? Ad?</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:241: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:242: syntax error, unexpected '<'
+                  </div>
+                   ^
+C:/web/camiuras/app/views/home/index.html.erb:243: unknown regexp options - av
+C:/web/camiuras/app/views/home/index.html.erb:244: syntax error, unexpected '<'
+            </div>
+             ^
+C:/web/camiuras/app/views/home/index.html.erb:246: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:247: syntax error, unexpected '<'
+          <div class="b-section__works--...
+           ^
+C:/web/camiuras/app/views/home/index.html.erb:247: syntax error, unexpected tIDENTIFIER, expecting ')'
+...="b-section__works--group" data-content="profissional">
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:248: syntax error, unexpected '<'
+            <div class="b-section__group--wrapper">
+             ^
+C:/web/camiuras/app/views/home/index.html.erb:249: syntax error, unexpected '<'
+              <nav class="b-section__works--images slider-for">
+               ^
+C:/web/camiuras/app/views/home/index.html.erb:250: syntax error, unexpected '<'
+                <div class="works__item works_...
+                 ^
+C:/web/camiuras/app/views/home/index.html.erb:251: syntax error, unexpected '<'
+                    <div class="image__wrapper">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:252: syntax error, unexpected '<'
+                      <img src="images/purga.png" alt="">
+                       ^
+C:/web/camiuras/app/views/home/index.html.erb:252: syntax error, unexpected tIDENTIFIER, expecting ')'
+                      <img src="images/purga.png" alt="">
+                                                     ^
+C:/web/camiuras/app/views/home/index.html.erb:253: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:254: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:255: syntax error, unexpected '<'
+                <div class="works__item works_...
+                 ^
+C:/web/camiuras/app/views/home/index.html.erb:256: syntax error, unexpected '<'
+                    <div class="image__wrapper">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:257: syntax error, unexpected '<'
+                      <img src="images/purga.png" alt="">
+                       ^
+C:/web/camiuras/app/views/home/index.html.erb:257: syntax error, unexpected tIDENTIFIER, expecting ')'
+                      <img src="images/purga.png" alt="">
+                                                     ^
+C:/web/camiuras/app/views/home/index.html.erb:258: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:259: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:260: syntax error, unexpected '<'
+              </nav>
+               ^
+C:/web/camiuras/app/views/home/index.html.erb:264: unknown regexp options - pa
+C:/web/camiuras/app/views/home/index.html.erb:265: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:267: unknown regexp options - pa
+C:/web/camiuras/app/views/home/index.html.erb:268: syntax error, unexpected '<'
+                    </div>
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:269: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:270: syntax error, unexpected '<'
+                  <div class="works__item works_...
+                   ^
+C:/web/camiuras/app/views/home/index.html.erb:271: syntax error, unexpected '<'
+                    <div class="works__item--title">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:272: syntax error, unexpected '<'
+                      <span class="text text--title ...
+                       ^
+C:/web/camiuras/app/views/home/index.html.erb:272: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...text--title skew-x">untitled 02</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:273: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:274: syntax error, unexpected '<'
+                    <div class="works__item--content">
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected '<'
+                    <span class="text text--grayli...
+                     ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+... text--graylight">  Lorem ipsum dolor sit amet, consectetur ...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...t amet, consectetur adipisicing elit. Iusto dolore laudantiu...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...remque soluta quam, repellat et impedit magnam, ad inventore...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...et impedit magnam, ad inventore nihil tempore explicabo exer...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:275: syntax error, unexpected tFID, expecting keyword_do or '{' or '('
+...tationem veritatis, labore? Ad?</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:276: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:277: syntax error, unexpected '<'
+                  </div>
+                   ^
+C:/web/camiuras/app/views/home/index.html.erb:278: unknown regexp options - av
+C:/web/camiuras/app/views/home/index.html.erb:279: syntax error, unexpected '<'
+            </div>
+             ^
+C:/web/camiuras/app/views/home/index.html.erb:280: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:281: syntax error, unexpected '<'
+        </div>
+         ^
+C:/web/camiuras/app/views/home/index.html.erb:282: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:283: syntax error, unexpected '<'
+      <nav class="b-section__works--sidenav">
+       ^
+C:/web/camiuras/app/views/home/index.html.erb:284: syntax error, unexpected '<'
+        <div class="c-sidenav--item">
+         ^
+C:/web/camiuras/app/views/home/index.html.erb:285: syntax error, unexpected '<'
+          <span class="text text--grayli...
+           ^
+C:/web/camiuras/app/views/home/index.html.erb:285: syntax error, unexpected tIDENTIFIER, expecting ')'
+...aylight is--active skew-x" data-go="registros">my stuff</spa...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:285: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...x" data-go="registros">my stuff</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:286: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:287: syntax error, unexpected '<'
+        <div class="c-sidenav--item">
+         ^
+C:/web/camiuras/app/views/home/index.html.erb:288: syntax error, unexpected '<'
+          <span class="text text--grayli...
+           ^
+C:/web/camiuras/app/views/home/index.html.erb:288: syntax error, unexpected tIDENTIFIER, expecting ')'
+...xt text--graylight skew-x" data-go="profissional">profession...
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:288: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...rofissional">professional works</span>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:289: unknown regexp options - dv
+C:/web/camiuras/app/views/home/index.html.erb:290: syntax error, unexpected '<'
+      </nav>
+       ^
+C:/web/camiuras/app/views/home/index.html.erb:291: unknown regexp options - ct
+C:/web/camiuras/app/views/home/index.html.erb:293: syntax error, unexpected '<'
+    </div>
+     ^
+C:/web/camiuras/app/views/home/index.html.erb:297: unknown regexp options - javacrpt
+unmatched close parenthesis: /div>
+    <footer>
+        <%= javascript_pack_tag 'application' );@output_buffer.safe_append='
+'.freeze;@output_buffer.safe_append='        <!-- Google AdWords -->
+        <script type="text/i
+C:/web/camiuras/app/views/home/index.html.erb:297: syntax error, unexpected tSTRING_BEG, expecting ')'
+... <script type="text/javascript" src="//www.googleadservices....
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:297: unknown regexp options - pagad
+C:/web/camiuras/app/views/home/index.html.erb:297: syntax error, unexpected tSTRING_BEG, expecting ')'
+...com/pagead/conversion_async.js"></script>
+...                               ^
+C:/web/camiuras/app/views/home/index.html.erb:297: unterminated string meets end of file):
+  
+app/views/home/index.html.erb:217: syntax error, unexpected =>, expecting ')'
+app/views/home/index.html.erb:219: unknown regexp options - dv
+app/views/home/index.html.erb:220: syntax error, unexpected '<'
+app/views/home/index.html.erb:221: syntax error, unexpected '<'
+app/views/home/index.html.erb:222: syntax error, unexpected '<'
+app/views/home/index.html.erb:222: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:223: syntax error, unexpected '<'
+app/views/home/index.html.erb:224: unknown regexp options - dv
+app/views/home/index.html.erb:225: syntax error, unexpected '<'
+app/views/home/index.html.erb:229: unknown regexp options - pa
+app/views/home/index.html.erb:230: syntax error, unexpected '<'
+app/views/home/index.html.erb:232: unknown regexp options - pa
+app/views/home/index.html.erb:233: syntax error, unexpected '<'
+app/views/home/index.html.erb:234: unknown regexp options - dv
+app/views/home/index.html.erb:235: syntax error, unexpected '<'
+app/views/home/index.html.erb:236: syntax error, unexpected '<'
+app/views/home/index.html.erb:237: syntax error, unexpected '<'
+app/views/home/index.html.erb:237: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:238: unknown regexp options - dv
+app/views/home/index.html.erb:239: syntax error, unexpected '<'
+app/views/home/index.html.erb:240: syntax error, unexpected '<'
+app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:240: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:240: syntax error, unexpected tFID, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:241: unknown regexp options - dv
+app/views/home/index.html.erb:242: syntax error, unexpected '<'
+app/views/home/index.html.erb:243: unknown regexp options - av
+app/views/home/index.html.erb:244: syntax error, unexpected '<'
+app/views/home/index.html.erb:246: unknown regexp options - dv
+app/views/home/index.html.erb:247: syntax error, unexpected '<'
+app/views/home/index.html.erb:247: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:248: syntax error, unexpected '<'
+app/views/home/index.html.erb:249: syntax error, unexpected '<'
+app/views/home/index.html.erb:250: syntax error, unexpected '<'
+app/views/home/index.html.erb:251: syntax error, unexpected '<'
+app/views/home/index.html.erb:252: syntax error, unexpected '<'
+app/views/home/index.html.erb:252: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:253: syntax error, unexpected '<'
+app/views/home/index.html.erb:254: unknown regexp options - dv
+app/views/home/index.html.erb:255: syntax error, unexpected '<'
+app/views/home/index.html.erb:256: syntax error, unexpected '<'
+app/views/home/index.html.erb:257: syntax error, unexpected '<'
+app/views/home/index.html.erb:257: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:258: syntax error, unexpected '<'
+app/views/home/index.html.erb:259: unknown regexp options - dv
+app/views/home/index.html.erb:260: syntax error, unexpected '<'
+app/views/home/index.html.erb:264: unknown regexp options - pa
+app/views/home/index.html.erb:265: syntax error, unexpected '<'
+app/views/home/index.html.erb:267: unknown regexp options - pa
+app/views/home/index.html.erb:268: syntax error, unexpected '<'
+app/views/home/index.html.erb:269: unknown regexp options - dv
+app/views/home/index.html.erb:270: syntax error, unexpected '<'
+app/views/home/index.html.erb:271: syntax error, unexpected '<'
+app/views/home/index.html.erb:272: syntax error, unexpected '<'
+app/views/home/index.html.erb:272: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:273: unknown regexp options - dv
+app/views/home/index.html.erb:274: syntax error, unexpected '<'
+app/views/home/index.html.erb:275: syntax error, unexpected '<'
+app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:275: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:275: syntax error, unexpected tFID, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:276: unknown regexp options - dv
+app/views/home/index.html.erb:277: syntax error, unexpected '<'
+app/views/home/index.html.erb:278: unknown regexp options - av
+app/views/home/index.html.erb:279: syntax error, unexpected '<'
+app/views/home/index.html.erb:280: unknown regexp options - dv
+app/views/home/index.html.erb:281: syntax error, unexpected '<'
+app/views/home/index.html.erb:282: unknown regexp options - dv
+app/views/home/index.html.erb:283: syntax error, unexpected '<'
+app/views/home/index.html.erb:284: syntax error, unexpected '<'
+app/views/home/index.html.erb:285: syntax error, unexpected '<'
+app/views/home/index.html.erb:285: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:285: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:286: unknown regexp options - dv
+app/views/home/index.html.erb:287: syntax error, unexpected '<'
+app/views/home/index.html.erb:288: syntax error, unexpected '<'
+app/views/home/index.html.erb:288: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/home/index.html.erb:288: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+app/views/home/index.html.erb:289: unknown regexp options - dv
+app/views/home/index.html.erb:290: syntax error, unexpected '<'
+app/views/home/index.html.erb:291: unknown regexp options - ct
+app/views/home/index.html.erb:293: syntax error, unexpected '<'
+app/views/home/index.html.erb:297: unknown regexp options - javacrpt
+app/views/home/index.html.erb:297: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/home/index.html.erb:297: unknown regexp options - pagad
+app/views/home/index.html.erb:297: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/home/index.html.erb:297: unterminated string meets end of file
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:38:24 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2500.1ms)
+Completed 500 Internal Server Error in 2570ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: compass.
+Load paths:
+  C:/web/camiuras/app/assets/config
+  C:/web/camiuras/app/assets/images
+  C:/web/camiuras/app/assets/javascripts
+  C:/web/camiuras/app/assets/stylesheets
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.1.5/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionview-5.1.5/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  C:/web/camiuras/node_modules):
+    3: <html>
+    4:   <head>
+    5:   	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    6:     <%= stylesheet_link_tag 'application', media: 'screen' %>
+    7:   	<title>Uras</title>
+    8:   </head>
+    9: 
+  
+app/assets/stylesheets/views/_index.scss:1
+app/assets/stylesheets/main.scss:37
+app/assets/stylesheets/application.scss:1
+app/views/home/index.html.erb:6:in `_app_views_home_index_html_erb___1151381355_55846880'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:44:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1393.5ms)
+Completed 500 Internal Server Error in 3188ms
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: compass.
+Load paths:
+  C:/web/camiuras/app/assets/config
+  C:/web/camiuras/app/assets/images
+  C:/web/camiuras/app/assets/javascripts
+  C:/web/camiuras/app/assets/stylesheets
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actioncable-5.1.5/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/actionview-5.1.5/lib/assets/compiled
+  C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  C:/web/camiuras/node_modules):
+    3: <html>
+    4:   <head>
+    5:   	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    6:     <%= stylesheet_link_tag 'application', media: 'screen' %>
+    7:   	<title>Uras</title>
+    8:   </head>
+    9: 
+  
+app/assets/stylesheets/views/_index.scss:1
+app/assets/stylesheets/main.scss:37
+app/assets/stylesheets/application.scss:1
+app/views/home/index.html.erb:6:in `_app_views_home_index_html_erb___1153809504_75584800'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:45:46 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (10571.3ms)
+Completed 200 OK in 10765ms (Views: 10747.6ms)
+
+
+Started GET "/images/purga.png" for 127.0.0.1 at 2018-02-28 00:46:20 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/purga.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/src/images/imgcenter.png" for 127.0.0.1 at 2018-02-28 00:46:22 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/src/images/imgcenter.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/libs/jquery.pagepiling.min.css.map"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:48:59 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 134ms (Views: 117.6ms)
+
+
+Started GET "/images/purga.png" for 127.0.0.1 at 2018-02-28 00:49:00 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/purga.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/src/images/imgcenter.png" for 127.0.0.1 at 2018-02-28 00:49:02 -0300
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/libs/jquery.pagepiling.min.css.map"):
+ActionController::RoutingError (No route matches [GET] "/src/images/imgcenter.png"):
+  
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:51:58 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 103ms (Views: 84.7ms)
+
+
+Started GET "/images/purga.png" for 127.0.0.1 at 2018-02-28 00:51:59 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/purga.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/src/images/imgcenter.png" for 127.0.0.1 at 2018-02-28 00:52:01 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/src/images/imgcenter.png"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/assets/libs/jquery.pagepiling.min.css.map"):
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:53:57 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (45.0ms)
+Completed 500 Internal Server Error in 115ms
+
+
+  
+ActionView::Template::Error (The asset "images/purga.png" is not present in the asset pipeline.):
+    214:               <nav class="b-section__works--images slider-for">
+    215:                 <div class="works__item works__item--image slider__item">
+    216:                     <div class="image__wrapper">
+    217:                       <%= image_tag('images/purga.png') %>
+    218:                     </div>
+    219:                 </div>
+    220:                 <div class="works__item works__item--image slider__item">
+  
+app/views/home/index.html.erb:217:in `_app_views_home_index_html_erb___1153809504_130722540'
+Started GET "/" for 127.0.0.1 at 2018-02-28 00:55:44 -0300
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 104ms (Views: 86.8ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/libs/jquery.pagepiling.min.css.map"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/src/images/imgcenter.png" for 127.0.0.1 at 2018-02-28 00:55:45 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/src/images/imgcenter.png"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/assets/libs/jquery.pagepiling.min.css.map"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.1.5) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.1.5) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+webpacker (3.2.0) lib/webpacker/dev_server_proxy.rb:18:in `perform_request'
+rack-proxy (0.6.3) lib/rack/proxy.rb:57:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
