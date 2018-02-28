@@ -8,7 +8,6 @@ module.exports = {
     this.nav_handler();
     this.piling();
     this.blotterjs();
-    console.log("xd");
   },
 
   carousel: function(){
