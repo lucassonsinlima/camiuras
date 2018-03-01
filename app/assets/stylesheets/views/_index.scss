@@ -6,7 +6,7 @@
   //First section
   &__welcome {
     .b-canvas {
-      transform: skewX(-15deg);
+      // transform: skewX(-15deg);
     }
   }
   &__menu {
@@ -137,7 +137,7 @@
           right: 60px;
         }
         span {
-          font-family: $fontSwiss;
+          font-family: $fontNimbus;
           cursor: pointer;
           @include transition(.2s ease-in-out);
           &:hover {

@@ -10,18 +10,18 @@
     }
   }
   &--title {
-    font-family: $fontSwiss;
+    font-family: $fontNimbus;
     font-size: 17em;
     color: $orange;
   }
   &--title2 {
-    font-family: $fontSwiss;
+    font-family: $fontNimbus;
     font-size: 8em;
     color: $orange;
   }
   &--subtitle {
     color: $red;
-    font-family: $fontSwiss;
+    font-family: $fontNimbus;
     font-size: 1.3em;
     @include transition(.2s ease-in-out);
     &.text--bordered {

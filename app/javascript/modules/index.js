@@ -78,8 +78,9 @@ module.exports = {
     });
   },
   blotterjs: function(){
+    console.log("xdss");
     var text = new Blotter.Text("uras", {
-      family : "'Swiss', sans-serif",
+      family : "'Nimbus', sans-serif",
       size : 290,
       fill : "#171717",
       style : 'normal',
@@ -143,12 +144,12 @@ module.exports = {
           , e = a.pageY / domHeight;
         _handleNewCenter(d, e)
     }
-    blotter.on("ready", function(e){
-      var textID = this._texts[0].id;
-      var canvasClass = this._scopes[textID].domElement.className;
-      var $el = $('.'+canvasClass+'');
-      _setInitialCenter($el[0]);
-    })
+    // blotter.on("ready", function(e){
+    //   var textID = this._texts[0].id;
+    //   var canvasClass = this._scopes[textID].domElement.className;
+    //   var $el = $('.'+canvasClass+'');
+    //   _setInitialCenter($el[0]);
+    // })
     _event();
     var scope = blotter.forText(text);
     scope.appendTo(container);
