@@ -69,8 +69,8 @@ module.exports = {
       onLeave: function(index, nextIndex, direction){},
       afterLoad: function(anchorLink, index){
         var hash = "#"+anchorLink;
-        var allNavItems = $('.b-section__nav').find("a");
-        var navItem = $('.b-section__nav').find("a[href='"+hash+"']");
+        var allNavItems = $('.b-section__nav--item').find("a");
+        var navItem = $('.b-section__nav--item').find("a[href='"+hash+"']");
         allNavItems.removeClass('is--active');
         navItem.addClass('is--active');
       },
@@ -78,13 +78,12 @@ module.exports = {
     });
   },
   blotterjs: function(){
-    console.log("xdss");
     var text = new Blotter.Text("uras", {
       family : "'Nimbus', sans-serif",
       size : 290,
       fill : "#171717",
-      style : 'normal',
-      weight : 500,
+      style : 'italic',
+      weight : 900,
       paddingRight: 100,
       paddingLeft: 100
     });

@@ -11,6 +11,8 @@
   }
   &--title {
     font-family: $fontNimbus;
+    font-weight: 900;
+    font-style: italic;
     font-size: 17em;
     color: $orange;
   }
@@ -18,10 +20,14 @@
     font-family: $fontNimbus;
     font-size: 8em;
     color: $orange;
+    font-weight: 900;
+    font-style: italic;
   }
   &--subtitle {
     color: $red;
     font-family: $fontNimbus;
+    font-weight: 900;
+    font-style: italic;
     font-size: 1.3em;
     @include transition(.2s ease-in-out);
     &.text--bordered {
@@ -34,11 +40,14 @@
     font-weight: 700;
     color: $red;
     cursor: pointer;
+    font-family: $fontNimbus;
+    font-weight: 900;
+    font-style: italic;
     @include transition(.2s ease-in-out);
   }
   &--blue {
     color: $blue;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 4em;
   }
   &--gray {
@@ -49,7 +58,6 @@
   &--graylight {
     color: $gray-light;
     line-height: 25px;
-    font-weight: 600;
     letter-spacing: 2px;
     font-size: .8em;
   }

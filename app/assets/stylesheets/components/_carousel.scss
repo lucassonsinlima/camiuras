@@ -7,15 +7,10 @@
   position: absolute;
   bottom: -100px;
   outline: none;
-  font-weight: 700;
-  -ms-transform: skewX(-15deg);
-  -webkit-transform: skewX(-15deg);
-  transform: skewX(-15deg);
+  font-weight: 900;
+  font-style: italic;
   cursor: pointer;
   font-family: $fontNimbus;
-  &:after {
-    transform: skewX(15deg);
-  }
 }
 
 .slick-next {

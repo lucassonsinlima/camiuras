@@ -6,7 +6,8 @@
   //First section
   &__welcome {
     .b-canvas {
-      // transform: skewX(-15deg);
+      position: relative;
+      top: -30px;
     }
   }
   &__menu {
@@ -36,28 +37,38 @@
   }
   //NAVBAR
   &__nav {
-    position: absolute;
-    top: 40px;
-    span {
-      font-weight: 600;
-      font-size: 13px;
+    &--wrapper {
+      position: absolute;
+      top: 40px;
+      width: 100%; 
     }
-    .is--active {
-      .text--bordered {
-        &:after {
-          width: 25px;
+    &--content {
+      position: relative;
+    }
+    &--item {
+      position: absolute;
+      span {
+        font-family: $fontNimbus;
+        font-weight: 500;
+        font-size: 13px;
+      }
+      .is--active {
+        .text--bordered {
+          &:after {
+            width: 25px;
+          }
         }
       }
-    }
-    &--center {
-      left: 50%;
-      @include transform(translateX(-50%));
-    }
-    &--left {
-      left: 40px;
-    }
-    &--right {
-      right: 40px;
+      &.m-center {
+        left: 50%;
+        @include transform(translateX(-50%));
+      }
+      &.m-left {
+        left: 0px;
+      }
+      &.m-right {
+        right: 0px;
+      }
     }
   }
   //CENTRAL
@@ -127,7 +138,7 @@
   &__works {
     &--sidenav {
       position: absolute;
-      right: -70px;
+      right: -40px;
       top: 60%;
       @include transform(translateY(-60%) rotate(90deg));
       .c-sidenav--item {
@@ -139,6 +150,8 @@
         span {
           font-family: $fontNimbus;
           cursor: pointer;
+          font-weight: 900;
+          font-style: italic;
           @include transition(.2s ease-in-out);
           &:hover {
             color: $blue;
@@ -152,7 +165,6 @@
               height: 5px;
               display: block;
               background: $blue;
-              transform: skewX(15deg);
             }
           }
         }
@@ -166,9 +178,9 @@
       float: left;
       width: 100%;
       position: absolute;
-      top: 50%;
+      top: 60%;
       left: 50%;
-      @include transform(translate(-50%, -50%));
+      @include transform(translate(-50%, -60%));
       .b-section__group--wrapper {
         align-items: center;
         display: flex;
