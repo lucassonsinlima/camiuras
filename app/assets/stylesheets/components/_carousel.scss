@@ -5,7 +5,7 @@
   border: 0;
   background: 0;
   position: absolute;
-  bottom: -100px;
+  bottom: 0;
   outline: none;
   font-weight: 900;
   font-style: italic;
@@ -17,13 +17,16 @@
   right: 0;
 }
 .slick-prev {
-  left: 0;
+  left: 30px;
 }
 
 .slick-slide {
   outline: none;
+  overflow: hidden;
   img {
     display: inline-block;
+    max-width: 450px;
+    height: auto;
   }
 }
 .slick-list {

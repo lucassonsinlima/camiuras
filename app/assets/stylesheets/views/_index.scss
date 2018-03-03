@@ -183,9 +183,8 @@
       left: 50%;
       @include transform(translate(-50%, -60%));
       .b-section__group--wrapper {
-        align-items: center;
         display: flex;
-        width: 75%;
+        width: 80%;
         margin: 0 auto;
       }
       &.is--active {
@@ -205,6 +204,9 @@
       .works__item  {
         text-align: center;
         position: relative;
+        &--info {
+          padding-left: 30px;                
+        }
         &--title {
           margin-bottom: 30px;
           text-align: left;
