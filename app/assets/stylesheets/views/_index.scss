@@ -124,12 +124,12 @@
       }
     }
     &--title {
-      padding-bottom: 30px;
+      padding-bottom: 20px;
     }
     &--more {
       float: left;
       width: 100%;
-      padding-top: 40px;
+      padding-top: 20px;
       .text--red {
         font-size: 1em;
       }
@@ -150,9 +150,10 @@
         span {
           font-family: $fontNimbus;
           cursor: pointer;
-          font-weight: 900;
-          font-style: italic;
+          letter-spacing: 3px;
+          font-weight: normal;
           @include transition(.2s ease-in-out);
+          @include transform(translateY(-60%) rotate(0deg));
           &:hover {
             color: $blue;
           }
@@ -208,7 +209,6 @@
           margin-bottom: 30px;
           text-align: left;
           span {
-            margin-left: 10px;
             color: $orange;
             text-transform: lowercase;
             font-weight: 700;

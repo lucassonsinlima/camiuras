@@ -52,7 +52,7 @@ module.exports = {
       direction: 'horizontal',
       verticalCentered: true,
       sectionsColor: ["#f9f9f9","#f9f9f9","#f9f9f9","#f9f9f9","#f9f9f9"],
-      anchors: ['home', 'home2', 'about', 'works'],
+      anchors: ['home', 'menu', 'about', 'works'],
       scrollingSpeed: 400,
       easing: 'swing',
       loopBottom: false,

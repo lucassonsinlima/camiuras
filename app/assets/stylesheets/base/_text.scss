@@ -1,5 +1,4 @@
 .text {
-  text-transform: lowercase;
   font-family: $fontMain;
   display: inline-block;
   &--orange {
@@ -15,6 +14,7 @@
     font-style: italic;
     font-size: 17em;
     color: $orange;
+    text-transform: lowercase;
   }
   &--title2 {
     font-family: $fontNimbus;
@@ -22,6 +22,7 @@
     color: $orange;
     font-weight: 900;
     font-style: italic;
+    text-transform: lowercase;    
   }
   &--subtitle {
     color: $red;
@@ -59,7 +60,7 @@
     color: $gray-light;
     line-height: 25px;
     letter-spacing: 2px;
-    font-size: .8em;
+    font-size: .9em;
   }
   &__lighter {
     position: relative;
