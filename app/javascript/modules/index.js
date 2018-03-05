@@ -29,6 +29,24 @@ module.exports = {
        nextArrow:'<button class="slick-next slick-arrow text__lighter--orange text--bordered" aria-label="Next" type="button" style="">Next</button>'
 
     });
+
+    $('.slider-for-personal').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: false,
+      fade: true,
+      asNavFor: '.slider-nav-personal'
+     });
+     $('.slider-nav-personal').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for-personal',
+        dots: false,
+        variableWidth: false,
+        prevArrow:'<button class="slick-prev slick-arrow text__lighter--orange text--bordered" aria-label="Previous" type="button" style="">Prev</button>',
+        nextArrow:'<button class="slick-next slick-arrow text__lighter--orange text--bordered" aria-label="Next" type="button" style="">Next</button>'
+ 
+     });
   },
 
   nav_handler: function(){
