@@ -126,6 +126,7 @@
     }
     &--title {
       padding-bottom: 20px;
+      margin-top: -20px;
     }
     &--more {
       float: left;
@@ -139,14 +140,14 @@
   &__works {
     &--sidenav {
       position: absolute;
-      right: -40px;
+      right: -70px;
       top: 60%;
       @include transform(translateY(-60%) rotate(90deg));
       .c-sidenav--item {
         float: left;
-        &:nth-child(1){
+        &:nth-child(2){
           position: relative;
-          right: 60px;
+          left: 60px;
         }
         span {
           font-family: $fontNimbus;
@@ -180,12 +181,12 @@
       float: left;
       width: 100%;
       position: absolute;
-      top: 60%;
+      top: 50%;
       left: 50%;
-      @include transform(translate(-50%, -60%));
+      @include transform(translate(-50%, -50%));
       .b-section__group--wrapper {
         display: flex;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
       }
       &.is--active {
@@ -200,13 +201,14 @@
         width: 40%;
       }
       .b-section__works--info {
-        width: 50%;
+        width: 40%;
+        margin: 0 80px;
       }
       .works__item  {
         text-align: center;
         position: relative;
         &--info {
-          padding-left: 30px;                
+          // padding-left: 30px;                
         }
         &--title {
           margin-bottom: 30px;
