@@ -138,6 +138,11 @@
     }
   }
   &__works {
+    &--content {
+      position: absolute;
+      left: 40px;
+      right: 40px;
+    }
     &--sidenav {
       position: absolute;
       right: -70px;
