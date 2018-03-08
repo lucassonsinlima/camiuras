@@ -242,6 +242,7 @@
           position: relative;
           display: inline-block;
           margin-top: 20px;
+          cursor: pointer;
           @include transition(.2s ease-in-out);          
           &:after {
             content: "";
