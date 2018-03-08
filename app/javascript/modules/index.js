@@ -110,8 +110,6 @@ module.exports = {
 
     var material = new Blotter.ChannelSplitMaterial();
     var blotter = new Blotter(material, { texts : text });
-    material.needsUpdate = true;
-    blotter.needsUpdate = true;
 
     function _event() {
       $(document).mousemove(function(event){
@@ -167,8 +165,8 @@ module.exports = {
     //   var $el = $('.'+canvasClass+'');
     //   _setInitialCenter($el[0]);
     // })
-    _event();
     var scope = blotter.forText(text);
     scope.appendTo(container);
+    _event();
   }
 }
