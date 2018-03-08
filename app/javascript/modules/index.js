@@ -77,7 +77,7 @@ module.exports = {
       loopTop: false,
       css3: true,
       navigation: false,
-      normalScrollElements: null,
+      normalScrollElements: '.slider__item',
       normalScrollElementTouchThreshold: 5,
       touchSensitivity: 5,
       keyboardScrolling: true,
