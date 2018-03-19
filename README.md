@@ -1,26 +1,9 @@
-# README
+# URAS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a portfolio project using some basic and cool stuffs, designed by Camila Urasaki (http://cargocollective.com/uras/).
 
-Things you may want to cover:
+### Using:
+https://alvarotrigo.com/pagePiling/  for pagePiling (derp)
+https://blotter.js.org/ for canvas material
+http://kenwheeler.github.io/slick/ to build the sync carousel
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-bundle exec rake webpacker:install
